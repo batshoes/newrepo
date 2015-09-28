@@ -1,0 +1,23 @@
+* {
+  font-family: 'Raleway', 'sans-serif';
+}
+nav {
+  position: fixed;
+  margin-top: -10px;
+  padding-top: 8px;
+  background-color: white;
+  width: 100%;
+}
+li, a {
+  display: inline;
+  text-decoration: none;
+  list-style: none;
+  margin-right: 15px; 
+  color: salmon;
+  background-color: white;
+}
+.content {
+  width: 70%;
+  margin: 0 auto;
+  padding-top: 8%
+}
