@@ -15,5 +15,51 @@
       <li><a href="terminalcommand.html">terminal</a></li>
     </ul>
   </nav>
+  <div class="content">
+    <h1>GIT BASICS</h1>
+    <p>
+      Git is version control software that is built into your computer. It's used to track the alterations you make to files in a way that dynamically changes the way software is developed.
+    </p>
+    <h3>git init</h3>
+    <p>
+      Initializes a git repositry on your local machine. Creates a .git_ignore file and begins tracking all other files in the root directory not specified in the ignore file.
+    </p>
+    <h3>git status</h3>
+    <p>
+      Relays information on files being tracked or otherwise. Changing the contents of a file, adding or deleting a file, any of these will cause a file to become "untracked" and ready to start being watched.
+    </p>
+    <h3>git add <em>filename</em></h3>
+    <p>
+      Adding a file that was previously "untracked" to be committed will move it into the "green zone" and the changes made will be recorded in the next commit. Two ways of adding are:
+      <ul>
+        <li>Specific filename</li>
+        <li>" . " - or by root directory</li>
+      </ul>
+    </p>
+    <h3>git commit</h3>
+    <p>
+      Commiting files records the changes you have designated in the commit log. These changes are retrievable via the commit number.
+      <ul>
+        <li>git commit - opens VIM and asks for a commit message to describe in detail the changes made.</li>
+        <li>git commit -m "<em>short commit message</em>" - commits with a shorter, more poigent message.</li>
+      </ul>
+    </p>
+    <h1>GITHUB</h1>
+    <p>Github is an online resource used by developers worldwide to host git repositories. It has become a haven for open source projects, allowing fluid collaboration with multiple developers and companies, encouraging the collective acceleration of learning.</p>
+
+    <h3>Github Repo</h3>
+    <p>Creating an online repositry on github gives developers the chance to host their own work on github. Once the repository has been created, several git commands will become available.</p>
+
+    <h3>git push</h3>
+    <p>Sends information on the local machine to the github remote storage.</p>
+
+    <h3>git pull</h3>
+    <p>When information is altered on Github, but not on the local machine, it is neccesary to "pull" the information from the remote storage.</p>
+
+    <h3>git checkout <em>branch name</em></h3>
+    <p>
+      When working on git repositories and implementing new features, it is sometimes wise to make those changes and implementations on a clone of the repository, make sure they work, and then "merge" them into the master branch.
+    </p>
+  </div>
 </body>
 </html>
